@@ -1,1 +1,1 @@
-# Podstawy-Programowania-Project
+# Projekt - Podstawy programowania
