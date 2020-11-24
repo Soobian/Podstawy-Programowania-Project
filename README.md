@@ -1,1 +1,1 @@
-# Projekt - Podstawy programowania
+# Movie theater ticket reservation system.
