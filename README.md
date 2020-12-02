@@ -1,1 +1,1 @@
-# Movie theater ticket reservation system.
+# Movie theater ticket reservation system in C.
