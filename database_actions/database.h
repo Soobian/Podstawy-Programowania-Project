@@ -1,7 +1,8 @@
 //
 // Created by Maciej Ciepał on 08.12.2020.
 //
-
+#include <stdio.h>
+#include <stdlib.h>
 #include "../sqlite3/sqlite3.h"
 #include "callback.h"
 
@@ -9,4 +10,5 @@
 #define MOVIETHEATER_DATABASE_H
 
 void database_action(const char*, sqlite3*, char*, void*);
+char* insert_user(char*, char*, char*, char*, char*);
 #endif //MOVIETHEATER_DATABASE_H
