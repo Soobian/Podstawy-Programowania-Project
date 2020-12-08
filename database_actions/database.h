@@ -1,5 +1,5 @@
 //
-// Created by macci on 08.12.2020.
+// Created by Maciej Ciepał on 08.12.2020.
 //
 
 #include "../sqlite3/sqlite3.h"
