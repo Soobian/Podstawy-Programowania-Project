@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MovieTheater"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/macci/Desktop/Podstawy-Programowania-Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MovieTheater">
+				<Option output="C:/Users/macci/Desktop/Podstawy-Programowania-Project/cmake-build-debug/MovieTheater.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/macci/Desktop/Podstawy-Programowania-Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 MovieTheater"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MovieTheater/fast">
+				<Option output="C:/Users/macci/Desktop/Podstawy-Programowania-Project/cmake-build-debug/MovieTheater.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/macci/Desktop/Podstawy-Programowania-Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 MovieTheater/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/macci/Desktop/Podstawy-Programowania-Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/macci/Desktop/Podstawy-Programowania-Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\macci\Desktop\Podstawy-Programowania-Project\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/database_actions/callback.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/database_actions/callback.h">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/database_actions/database.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/database_actions/database.h">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/main.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/sqlite3/sqlite3.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/sqlite3/sqlite3.h">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
