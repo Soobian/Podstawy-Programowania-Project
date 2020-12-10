@@ -208,6 +208,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\main.c.s
 .PHONY : main.c.s
 
+menu\showmenu.obj: menu\showmenu.c.obj
+
+.PHONY : menu\showmenu.obj
+
+# target to build an object file
+menu\showmenu.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\showmenu.c.obj
+.PHONY : menu\showmenu.c.obj
+
+menu\showmenu.i: menu\showmenu.c.i
+
+.PHONY : menu\showmenu.i
+
+# target to preprocess a source file
+menu\showmenu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\showmenu.c.i
+.PHONY : menu\showmenu.c.i
+
+menu\showmenu.s: menu\showmenu.c.s
+
+.PHONY : menu\showmenu.s
+
+# target to generate assembly for a file
+menu\showmenu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\showmenu.c.s
+.PHONY : menu\showmenu.c.s
+
 sqlite3\sqlite3.obj: sqlite3\sqlite3.c.obj
 
 .PHONY : sqlite3\sqlite3.obj
@@ -253,6 +280,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... menu/showmenu.obj
+	@echo ... menu/showmenu.i
+	@echo ... menu/showmenu.s
 	@echo ... sqlite3/sqlite3.obj
 	@echo ... sqlite3/sqlite3.i
 	@echo ... sqlite3/sqlite3.s
