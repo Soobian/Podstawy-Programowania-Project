@@ -26,24 +26,24 @@ The C compiler identification is MSVC, found in "C:/Users/macci/Desktop/Podstawy
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/macci/Desktop/Podstawy-Programowania-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_ba1c6\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_ba1c6.dir\build.make /nologo -L                  CMakeFiles\cmTC_ba1c6.dir\build
-Building C object CMakeFiles/cmTC_ba1c6.dir/testCCompiler.c.obj
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\macci\AppData\Local\Temp\nm2F05.tmp
+Run Build Command(s):nmake /nologo cmTC_d610d\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_d610d.dir\build.make /nologo -L                  CMakeFiles\cmTC_d610d.dir\build
+Building C object CMakeFiles/cmTC_d610d.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\macci\AppData\Local\Temp\nm627A.tmp
 testCCompiler.c
-Linking C executable cmTC_ba1c6.exe
-	"E:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_ba1c6.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_ba1c6.dir\objects1.rsp @C:\Users\macci\AppData\Local\Temp\nm2F73.tmp
+Linking C executable cmTC_d610d.exe
+	"E:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d610d.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_d610d.dir\objects1.rsp @C:\Users\macci\AppData\Local\Temp\nm6430.tmp
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/macci/Desktop/Podstawy-Programowania-Project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_26b99\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_26b99.dir\build.make /nologo -L                  CMakeFiles\cmTC_26b99.dir\build
-Building C object CMakeFiles/cmTC_26b99.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\macci\AppData\Local\Temp\nm336A.tmp
+Run Build Command(s):nmake /nologo cmTC_91d65\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_91d65.dir\build.make /nologo -L                  CMakeFiles\cmTC_91d65.dir\build
+Building C object CMakeFiles/cmTC_91d65.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @C:\Users\macci\AppData\Local\Temp\nm6807.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_26b99.exe
-	"E:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_26b99.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_26b99.dir\objects1.rsp @C:\Users\macci\AppData\Local\Temp\nm33D8.tmp
+Linking C executable cmTC_91d65.exe
+	"E:\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_91d65.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_91d65.dir\objects1.rsp @C:\Users\macci\AppData\Local\Temp\nm6876.tmp
 
 
 

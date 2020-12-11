@@ -51,18 +51,25 @@ void add_account_menu(){
     do {
         for(int i = 0; i < registration_stage; ++i){
             if(i == registration_stage - 1){
-                printf("%d. %s:", i,  data[i].title);
-                scanf("%s%c", data[i].title, &ch);
-                //++registration_stage;
+                data[i].text = malloc(sizeof(char*) * 30);
+                printf("%s:", data[i].title);
+                scanf("%s%c", data[i].text, &ch);
+                if (strcmp(data[i].text, "BACK") != 0) {
+                    ++registration_stage;
+                } else {
+                    registration_stage = (registration_stage == 1) ? 1 : (registration_stage - 1);
+                    break;
+                }
             }
             else {
-                printf("%d. %s:%s\n", i, data[i].title, data[i].title);
+                printf("%s:%s\n", data[i].title, data[i].text);
             }
+
         }
-        done = 1;
+        done = registration_stage == menu_size ? 1 : 0;
     } while (done == 0);
     for(int i = 0; i < menu_size; ++i){
-        printf("%s\n", data[i].title);
+        printf("%s\n", data[i].text);
     }
     getchar();
 }
