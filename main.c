@@ -33,6 +33,8 @@ int main() {
     char* phone_number = "123456789";
     sql = insert_user(f_name, l_name, date_of_birth, email, phone_number);
     //printf("%s", sql);
-    add_account_menu();
+
+    int x = add_account_menu();
+    printf("%d", x);
     return 0;
 }
