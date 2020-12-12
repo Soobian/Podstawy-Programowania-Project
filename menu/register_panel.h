@@ -8,7 +8,6 @@
 #ifndef MOVIETHEATER_SHOWMENU_H
 #define MOVIETHEATER_SHOWMENU_H
 
-void show_logo();
 int add_account_menu();
 
 #endif //MOVIETHEATER_SHOWMENU_H

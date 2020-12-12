@@ -1,0 +1,8 @@
+//
+// Created by Maciej Ciepał on 12.12.2020.
+//
+
+#ifndef MOVIETHEATER_ADMIN_PANEL_H
+#define MOVIETHEATER_ADMIN_PANEL_H
+
+#endif //MOVIETHEATER_ADMIN_PANEL_H

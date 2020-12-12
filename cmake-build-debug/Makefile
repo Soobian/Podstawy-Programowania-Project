@@ -208,32 +208,86 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\main.c.s
 .PHONY : main.c.s
 
-menu\showmenu.obj: menu\showmenu.c.obj
+menu\admin_panel.obj: menu\admin_panel.c.obj
 
-.PHONY : menu\showmenu.obj
+.PHONY : menu\admin_panel.obj
 
 # target to build an object file
-menu\showmenu.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\showmenu.c.obj
-.PHONY : menu\showmenu.c.obj
+menu\admin_panel.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\admin_panel.c.obj
+.PHONY : menu\admin_panel.c.obj
 
-menu\showmenu.i: menu\showmenu.c.i
+menu\admin_panel.i: menu\admin_panel.c.i
 
-.PHONY : menu\showmenu.i
+.PHONY : menu\admin_panel.i
 
 # target to preprocess a source file
-menu\showmenu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\showmenu.c.i
-.PHONY : menu\showmenu.c.i
+menu\admin_panel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\admin_panel.c.i
+.PHONY : menu\admin_panel.c.i
 
-menu\showmenu.s: menu\showmenu.c.s
+menu\admin_panel.s: menu\admin_panel.c.s
 
-.PHONY : menu\showmenu.s
+.PHONY : menu\admin_panel.s
 
 # target to generate assembly for a file
-menu\showmenu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\showmenu.c.s
-.PHONY : menu\showmenu.c.s
+menu\admin_panel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\admin_panel.c.s
+.PHONY : menu\admin_panel.c.s
+
+menu\logo.obj: menu\logo.c.obj
+
+.PHONY : menu\logo.obj
+
+# target to build an object file
+menu\logo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\logo.c.obj
+.PHONY : menu\logo.c.obj
+
+menu\logo.i: menu\logo.c.i
+
+.PHONY : menu\logo.i
+
+# target to preprocess a source file
+menu\logo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\logo.c.i
+.PHONY : menu\logo.c.i
+
+menu\logo.s: menu\logo.c.s
+
+.PHONY : menu\logo.s
+
+# target to generate assembly for a file
+menu\logo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\logo.c.s
+.PHONY : menu\logo.c.s
+
+menu\register_panel.obj: menu\register_panel.c.obj
+
+.PHONY : menu\register_panel.obj
+
+# target to build an object file
+menu\register_panel.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\register_panel.c.obj
+.PHONY : menu\register_panel.c.obj
+
+menu\register_panel.i: menu\register_panel.c.i
+
+.PHONY : menu\register_panel.i
+
+# target to preprocess a source file
+menu\register_panel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\register_panel.c.i
+.PHONY : menu\register_panel.c.i
+
+menu\register_panel.s: menu\register_panel.c.s
+
+.PHONY : menu\register_panel.s
+
+# target to generate assembly for a file
+menu\register_panel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\register_panel.c.s
+.PHONY : menu\register_panel.c.s
 
 sqlite3\sqlite3.obj: sqlite3\sqlite3.c.obj
 
@@ -280,9 +334,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... menu/showmenu.obj
-	@echo ... menu/showmenu.i
-	@echo ... menu/showmenu.s
+	@echo ... menu/admin_panel.obj
+	@echo ... menu/admin_panel.i
+	@echo ... menu/admin_panel.s
+	@echo ... menu/logo.obj
+	@echo ... menu/logo.i
+	@echo ... menu/logo.s
+	@echo ... menu/register_panel.obj
+	@echo ... menu/register_panel.i
+	@echo ... menu/register_panel.s
 	@echo ... sqlite3/sqlite3.obj
 	@echo ... sqlite3/sqlite3.i
 	@echo ... sqlite3/sqlite3.s

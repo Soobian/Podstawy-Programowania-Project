@@ -97,10 +97,22 @@
 		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/main.c">
 			<Option target="MovieTheater"/>
 		</Unit>
-		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/showmenu.c">
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/admin_panel.c">
 			<Option target="MovieTheater"/>
 		</Unit>
-		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/showmenu.h">
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/admin_panel.h">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/logo.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/logo.h">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/register_panel.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/register_panel.h">
 			<Option target="MovieTheater"/>
 		</Unit>
 		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/sqlite3/sqlite3.c">

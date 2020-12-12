@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "sqlite3/sqlite3.h"
 #include "database_actions/database.h"
-#include "menu/showmenu.h"
+#include "menu/register_panel.h"
 
 int main() {
     sqlite3* db;
@@ -36,5 +36,6 @@ int main() {
 
     int x = add_account_menu();
     printf("%d", x);
+    getchar();
     return 0;
 }
