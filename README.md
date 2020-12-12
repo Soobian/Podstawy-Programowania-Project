@@ -12,4 +12,6 @@ The program allows you to book cinema tickets.
 - [x] Execution of database operations using SQLite
 - [x] Adding new users
 - [ ] Registration panel
+  - [x] Test version
+  - [ ] Adjustments and fixes  
 - [ ] Admin panel
