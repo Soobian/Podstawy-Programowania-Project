@@ -4,6 +4,7 @@
 
 #include "register_panel.h"
 #include "logo.h"
+#include "../database_actions/database.h"
 
 /*
  * Function: add_account_menu
@@ -16,11 +17,6 @@
  */
 int add_account_menu(){
     const int menu_size = 7;
-
-    struct RegisterWindow {
-        char* title;
-        char* text;
-    };
 
     char* title_text[7];
     title_text[0] = "LOGIN";
@@ -36,15 +32,23 @@ int add_account_menu(){
         data[i].title = title_text[i];
     }
 
+
     char ch;
     int done = 0;
     int registration_stage = 1;
     char* abort = malloc(sizeof(char) * 1);
     char* consent = malloc(sizeof(char) * 1);
 
+    setlocale(LC_CTYPE, "");
+    wchar_t star = 0x00BB;
+
     do {
         show_logo();
-        printf("\nCOMMANDS:\n* /BACK - RETURNS TO THE PREVIOUS FORM FIELD\n* /END - END REGISTRATION PROCESS AND RETURN TO THE MAIN MENU\n\n");
+        printf("%s", "REGISTER PANEL:\n\nCOMMANDS:\n");
+        wprintf(L" %lc ", star);
+        printf("%s\n", "/BACK - RETURNS TO THE PREVIOUS FORM FIELD");
+        wprintf(L" %lc ", star);
+        printf("%s\n\n", "/END - END REGISTRATION PROCESS AND RETURN TO THE MAIN MENU");
         for(int i = 0; i < registration_stage && i < menu_size; ++i){
             if(i == registration_stage - 1){
                 data[i].text = malloc(sizeof(char*) * 30);

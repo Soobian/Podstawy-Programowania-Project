@@ -3,6 +3,7 @@
 //
 
 #include "database.h"
+#include "../menu/register_panel.h"
 
 char* insert_user(char* f_name, char* l_name, char* date_of_birth, char* email, char* phone_number){
     char *sql = malloc( sizeof(char) * 250);

@@ -5,4 +5,6 @@
 #ifndef MOVIETHEATER_ADMIN_PANEL_H
 #define MOVIETHEATER_ADMIN_PANEL_H
 
+int admin_menu();
+
 #endif //MOVIETHEATER_ADMIN_PANEL_H
