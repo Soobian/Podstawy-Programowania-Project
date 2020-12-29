@@ -3,8 +3,6 @@
 //
 
 #include "register_panel.h"
-#include "logo.h"
-#include "../database_actions/database.h"
 
 /*
  * Function: add_account_menu
@@ -15,7 +13,7 @@
  *   0 - account has been added
  *   1 - the registration process was aborted
  */
-int add_account_menu(){
+char* add_account_menu(){
     const int menu_size = 7;
 
     char* title_text[7];
@@ -38,6 +36,7 @@ int add_account_menu(){
     int registration_stage = 1;
     char* abort = malloc(sizeof(char) * 1);
     char* consent = malloc(sizeof(char) * 1);
+    char* sql;
 
     setlocale(LC_CTYPE, "");
     wchar_t star = 0x00BB;
@@ -67,7 +66,7 @@ int add_account_menu(){
                         break;
                     }
                     else {
-                        return 1;
+                        return NULL;
                     }
                 }
                 else {
@@ -93,8 +92,10 @@ int add_account_menu(){
         }
     } while (done == 0);
     //printf();
+    /*
     for(int i = 0; i < menu_size; ++i){
         printf("%s\n", data[i].text);
     }
-    return 0;
+     */
+    return insert_user(data[0].text, data[1].text, data[2].text, data[3].text, data[4].text, data[5].text, data[6].text);
 }

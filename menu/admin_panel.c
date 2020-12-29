@@ -2,10 +2,7 @@
 // Created by Maciej Ciepał on 12.12.2020.
 //
 
-#include <stdio.h>
 #include "admin_panel.h"
-#include "logo.h"
-
 
 /*
  * Function: admin_menu
@@ -18,19 +15,20 @@
  * 2 - cinema hall list
  * 3 - logout from admin account
  */
-int admin_menu(){
+void admin_menu(){
     char ch;
     int number = 0;
+    do {
+        system("cls");
+        show_logo();
+        printf("1. %s\n2. %s\n3. %s\n4. %s\n\n",
+               "MOVIE LIST",
+               "USERS DATA",
+               "CINEMA HALL LIST",
+               "LOGOUT");
+        scanf("%d%c", &number, &ch);
+    } while (number != 4);
 
-    show_logo();
-    printf("1. %s\n2. %s\n3. %s\n4. %s\n\n%s",
-           "MOVIE LIST",
-           "USERS DATA",
-           "CINEMA HALL LIST",
-           "LOGOUT",
-           "");
-    scanf("%d%c", &number, &ch);
-    return (number);
 }
 /*
  * Function: users_data

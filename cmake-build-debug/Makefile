@@ -181,6 +181,33 @@ database_actions\database.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\database_actions\database.c.s
 .PHONY : database_actions\database.c.s
 
+database_actions\datatypes.obj: database_actions\datatypes.c.obj
+
+.PHONY : database_actions\datatypes.obj
+
+# target to build an object file
+database_actions\datatypes.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\database_actions\datatypes.c.obj
+.PHONY : database_actions\datatypes.c.obj
+
+database_actions\datatypes.i: database_actions\datatypes.c.i
+
+.PHONY : database_actions\datatypes.i
+
+# target to preprocess a source file
+database_actions\datatypes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\database_actions\datatypes.c.i
+.PHONY : database_actions\datatypes.c.i
+
+database_actions\datatypes.s: database_actions\datatypes.c.s
+
+.PHONY : database_actions\datatypes.s
+
+# target to generate assembly for a file
+database_actions\datatypes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\database_actions\datatypes.c.s
+.PHONY : database_actions\datatypes.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -234,6 +261,33 @@ menu\admin_panel.s: menu\admin_panel.c.s
 menu\admin_panel.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\admin_panel.c.s
 .PHONY : menu\admin_panel.c.s
+
+menu\login_panel.obj: menu\login_panel.c.obj
+
+.PHONY : menu\login_panel.obj
+
+# target to build an object file
+menu\login_panel.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\login_panel.c.obj
+.PHONY : menu\login_panel.c.obj
+
+menu\login_panel.i: menu\login_panel.c.i
+
+.PHONY : menu\login_panel.i
+
+# target to preprocess a source file
+menu\login_panel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\login_panel.c.i
+.PHONY : menu\login_panel.c.i
+
+menu\login_panel.s: menu\login_panel.c.s
+
+.PHONY : menu\login_panel.s
+
+# target to generate assembly for a file
+menu\login_panel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\login_panel.c.s
+.PHONY : menu\login_panel.c.s
 
 menu\logo.obj: menu\logo.c.obj
 
@@ -289,6 +343,33 @@ menu\register_panel.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\register_panel.c.s
 .PHONY : menu\register_panel.c.s
 
+menu\user_panel.obj: menu\user_panel.c.obj
+
+.PHONY : menu\user_panel.obj
+
+# target to build an object file
+menu\user_panel.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\user_panel.c.obj
+.PHONY : menu\user_panel.c.obj
+
+menu\user_panel.i: menu\user_panel.c.i
+
+.PHONY : menu\user_panel.i
+
+# target to preprocess a source file
+menu\user_panel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\user_panel.c.i
+.PHONY : menu\user_panel.c.i
+
+menu\user_panel.s: menu\user_panel.c.s
+
+.PHONY : menu\user_panel.s
+
+# target to generate assembly for a file
+menu\user_panel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\user_panel.c.s
+.PHONY : menu\user_panel.c.s
+
 sqlite3\sqlite3.obj: sqlite3\sqlite3.c.obj
 
 .PHONY : sqlite3\sqlite3.obj
@@ -331,18 +412,27 @@ help:
 	@echo ... database_actions/database.obj
 	@echo ... database_actions/database.i
 	@echo ... database_actions/database.s
+	@echo ... database_actions/datatypes.obj
+	@echo ... database_actions/datatypes.i
+	@echo ... database_actions/datatypes.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... menu/admin_panel.obj
 	@echo ... menu/admin_panel.i
 	@echo ... menu/admin_panel.s
+	@echo ... menu/login_panel.obj
+	@echo ... menu/login_panel.i
+	@echo ... menu/login_panel.s
 	@echo ... menu/logo.obj
 	@echo ... menu/logo.i
 	@echo ... menu/logo.s
 	@echo ... menu/register_panel.obj
 	@echo ... menu/register_panel.i
 	@echo ... menu/register_panel.s
+	@echo ... menu/user_panel.obj
+	@echo ... menu/user_panel.i
+	@echo ... menu/user_panel.s
 	@echo ... sqlite3/sqlite3.obj
 	@echo ... sqlite3/sqlite3.i
 	@echo ... sqlite3/sqlite3.s

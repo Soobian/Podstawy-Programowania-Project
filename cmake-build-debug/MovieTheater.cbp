@@ -94,6 +94,12 @@
 		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/database_actions/database.h">
 			<Option target="MovieTheater"/>
 		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/database_actions/datatypes.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/database_actions/datatypes.h">
+			<Option target="MovieTheater"/>
+		</Unit>
 		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/main.c">
 			<Option target="MovieTheater"/>
 		</Unit>
@@ -101,6 +107,12 @@
 			<Option target="MovieTheater"/>
 		</Unit>
 		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/admin_panel.h">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/login_panel.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/login_panel.h">
 			<Option target="MovieTheater"/>
 		</Unit>
 		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/logo.c">
@@ -113,6 +125,12 @@
 			<Option target="MovieTheater"/>
 		</Unit>
 		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/register_panel.h">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/user_panel.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/menu/user_panel.h">
 			<Option target="MovieTheater"/>
 		</Unit>
 		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/sqlite3/sqlite3.c">
