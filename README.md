@@ -9,13 +9,21 @@
 The program allows you to book cinema tickets.
 
 ## Progress
-- [x] Execution of database operations using SQLite
-- [x] Generating a sql statement that adds a user to database
-- [ ] Registration panel
+- [x] Execution of database operations using SQLite *( 09.12.2020 )*
+- [x] Generating a sql statement that adds a user to database *( 09.12.2020 )*
+- [x] Registration panel *( 29.12.2020 )*
   - [x] Test version
-  - [ ] Adjustments and fixes  
-- [ ] Admin panel
+  - [x] Adjustments and fixes  
+- [ ] Admin panel *( - )*
+  - [x] Admin menu
   - [ ] Adding movies
   - [ ] Adding cinema halls
-  - [ ] Reviewing users informations
-- [ ] User profile
+  - [x] Reviewing users informations
+  - [ ] Deleting accounts
+- [ ] User panel *( - )*
+  - [x] User menu
+  - [ ] Profile
+    - [ ] Editing informations
+    - [ ] Deleting account
+  - [ ] Tickets
+  - [ ] History of watched movies
