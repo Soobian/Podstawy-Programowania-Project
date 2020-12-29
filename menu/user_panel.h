@@ -3,6 +3,7 @@
 //
 #include "logo.h"
 #include <stdio.h>
+#include <stdlib.h>
 #ifndef MOVIETHEATER_USER_PANEL_H
 #define MOVIETHEATER_USER_PANEL_H
 
