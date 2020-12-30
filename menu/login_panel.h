@@ -7,6 +7,7 @@
 #include "logo.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include "../database_actions/database.h"
 
 void login_panel(sqlite3*, char*);

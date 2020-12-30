@@ -3,6 +3,7 @@
 //
 
 #include "database.h"
+#include <string.h>
 
 char* insert_user(char* login, char* password, char* f_name, char* l_name, char* date_of_birth, char* email, char* phone_number){
     char *sql = malloc( sizeof(char) * 250);
@@ -22,10 +23,7 @@ char* insert_user(char* login, char* password, char* f_name, char* l_name, char*
  */
 void database_action(const char* sql, sqlite3* db, char* zErrMsg, void* data, int purpose){
     int rc;
-    if(purpose == 0){
-        rc = sqlite3_exec(db, sql, callback_login, (void*)data, &zErrMsg);
-    }
-    else if(purpose == 1){
+    if(purpose == 1){
         rc = sqlite3_exec(db, sql, callback_users, (void*)data, &zErrMsg);
     }
     else {
@@ -35,4 +33,11 @@ void database_action(const char* sql, sqlite3* db, char* zErrMsg, void* data, in
         fprintf(stderr, "SQL error: %s\n", zErrMsg);
         sqlite3_free(zErrMsg);
     }
+}
+
+char* login_user(const char* sql, sqlite3* db, char* zErrMsg, void* data){
+    char* user_name = malloc(sizeof(char) * 30);
+    strcpy(user_name, "NONE");
+    int rc = sqlite3_exec(db, sql, callback_login, user_name, &zErrMsg);
+    return user_name;
 }

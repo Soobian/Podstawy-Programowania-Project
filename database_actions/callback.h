@@ -13,5 +13,5 @@
 
 int callback(void*, int, char**, char**);
 int callback_users(void*, int, char**, char**);
-int callback_login(void*, int, char**, char**);
+int callback_login(char*, int, char**, char**);
 #endif //MOVIETHEATER_CALLBACK_H

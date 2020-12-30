@@ -34,18 +34,8 @@ int callback_users(void *unused, int count, char **data, char **columns){
     return 0;
 }
 
-int callback_login(void *unused, int count, char **data, char **columns){
+int callback_login(char* user_name, int count, char **data, char **columns){
     int idx;
-    printf("%d\n", count);
-    if(count == 0){
-        printf("Wrong login or password. (press any key to try again)\n");
-        getchar();
-    }
-    else if(strcmp(data[1], "admin") == 0){
-        admin_menu();
-    }
-    else {
-        user_menu(data[1]);
-    }
+    strcpy(user_name, data[1]);
     return 0;
 }

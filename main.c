@@ -3,8 +3,7 @@
 #include "database_actions/database.h"
 #include "menu/register_panel.h"
 #include "menu/login_panel.h"
-#include "menu/admin_panel.h"
-#include "menu/logo.h"
+//#include "menu/logo.h"
 #include "database_actions/datatypes.h"
 #include <locale.h>
 #include <fcntl.h>
@@ -68,16 +67,11 @@ int main() {
                 }
                 break;
             case 2:
-                /*
-                sql = "SELECT * FROM users";
-                database_action(sql, db, zErrmsg, (void*)data, 1);
-                 */
                 login_panel(db, data);
                 break;
             case 3:
                 running_app = 0;
         }
-        getchar();
         system("cls");
     } while (running_app == true);
     return 0;
