@@ -13,7 +13,8 @@ The program allows you to book cinema tickets.
 - [x] Generating a sql statement that adds a user to database *( 09.12.2020 )*
 - [x] Registration panel *( 29.12.2020 )*
   - [x] Test version
-  - [x] Adjustments and fixes  
+  - [x] Adjustments and fixes
+- [x] Logging *( 30.12.2020 )* 
 - [ ] Admin panel *( - )*
   - [x] Admin menu
   - [ ] Adding movies
