@@ -14,7 +14,7 @@ char* insert_user(char* login, char* password, char* f_name, char* l_name, char*
 
 /*
  * Function: database_action
- * ----------------------------
+ * --------------------------------------
  *   Performs operations on the database.
  *
  *   purpose:
@@ -35,9 +35,9 @@ void database_action(const char* sql, sqlite3* db, char* zErrMsg, void* data, in
     }
 }
 
-char* login_user(const char* sql, sqlite3* db, char* zErrMsg, void* data){
+char* login_user(const char* sql, sqlite3* db, char* zErrMsg){
     char* user_name = malloc(sizeof(char) * 30);
     strcpy(user_name, "NONE");
-    int rc = sqlite3_exec(db, sql, callback_login, user_name, &zErrMsg);
+    sqlite3_exec(db, sql, callback_login, user_name, &zErrMsg);
     return user_name;
 }

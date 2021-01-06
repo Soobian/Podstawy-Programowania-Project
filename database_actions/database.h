@@ -13,5 +13,5 @@
 
 void database_action(const char*, sqlite3*, char*, void*, int);
 char* insert_user(char*, char*, char*, char*, char*, char*, char*);
-char* login_user(const char*, sqlite3*, char*, void*);
+char* login_user(const char*, sqlite3*, char*);
 #endif //MOVIETHEATER_DATABASE_H

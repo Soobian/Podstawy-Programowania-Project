@@ -370,6 +370,33 @@ menu\user_panel.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\menu\user_panel.c.s
 .PHONY : menu\user_panel.c.s
 
+movies_db\movies.obj: movies_db\movies.c.obj
+
+.PHONY : movies_db\movies.obj
+
+# target to build an object file
+movies_db\movies.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\movies_db\movies.c.obj
+.PHONY : movies_db\movies.c.obj
+
+movies_db\movies.i: movies_db\movies.c.i
+
+.PHONY : movies_db\movies.i
+
+# target to preprocess a source file
+movies_db\movies.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\movies_db\movies.c.i
+.PHONY : movies_db\movies.c.i
+
+movies_db\movies.s: movies_db\movies.c.s
+
+.PHONY : movies_db\movies.s
+
+# target to generate assembly for a file
+movies_db\movies.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\movies_db\movies.c.s
+.PHONY : movies_db\movies.c.s
+
 sqlite3\sqlite3.obj: sqlite3\sqlite3.c.obj
 
 .PHONY : sqlite3\sqlite3.obj
@@ -433,6 +460,9 @@ help:
 	@echo ... menu/user_panel.obj
 	@echo ... menu/user_panel.i
 	@echo ... menu/user_panel.s
+	@echo ... movies_db/movies.obj
+	@echo ... movies_db/movies.i
+	@echo ... movies_db/movies.s
 	@echo ... sqlite3/sqlite3.obj
 	@echo ... sqlite3/sqlite3.i
 	@echo ... sqlite3/sqlite3.s

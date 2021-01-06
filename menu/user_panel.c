@@ -4,6 +4,14 @@
 
 #include "user_panel.h"
 
+/*
+ * Function: users_data
+ * ------------------------------------------------------
+ * Shows all registered users and allow to modify database.
+ *
+ * Function parameters:
+ * char* login - name of the user
+ */
 void user_menu(char* login){
     char ch;
     int number = 0;
@@ -14,7 +22,7 @@ void user_menu(char* login){
         printf("%s", "USER PANEL\n\n");
         printf("1. %s\n2. %s\n",
                "YOUR TICKETS",
-               "QUIT"
+               "LOGOUT"
         );
         scanf("%d%c", &number, &ch);
     } while (number != 2);

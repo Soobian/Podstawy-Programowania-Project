@@ -2,6 +2,7 @@
 #include "sqlite3/sqlite3.h"
 #include "database_actions/database.h"
 #include "menu/register_panel.h"
+#include "movies_db/movies.h"
 #include "menu/login_panel.h"
 //#include "menu/logo.h"
 #include "database_actions/datatypes.h"
@@ -26,24 +27,49 @@ int main() {
         return(0);
     }
     /*
-    sql = "DROP TABLE users";
-    database_action(sql, db, zErrmsg, (void*)data);
     sql = "CREATE TABLE users\n"
           "(\n"
-          "    user_id         INTEGER PRIMARY KEY AUTOINCREMENT,\n"
+          "    id              INTEGER PRIMARY KEY AUTOINCREMENT,\n"
           "    login           VARCHAR(30) NOT NULL UNIQUE,\n"
           "    password        VARCHAR(30) NOT NULL,\n"
           "    first_name      VARCHAR(30) NOT NULL,\n"
           "    last_name       VARCHAR(30) NOT NULL,\n"
-          "    date_of_birth   DATE,\n"
-          "    email           VARCHAR(30) NOT NULL,\n"
-          "    phone           VARCHAR(9) NOT NULL\n"
-          ")";
-    database_action(sql, db, zErrmsg, (void*)data);
-    sql = "INSERT INTO users   (login, password, first_name, last_name, date_of_birth, email, phone)\n"
-          "VALUES              ('j3', 'jk231', 'Jan', 'Kowalski', '1999-05-12', 'jk@gmail.com', '123456789')";
-    database_action(sql, db, zErrmsg, (void*)data);
+          "    date_of_birth   DATE NOT NULL,\n"
+          "    email           VARCHAR(30) NOT NULL UNIQUE,\n"
+          "    phone           VARCHAR(9) NOT NULL UNIQUE\n"
+          ");\n"
+          "CREATE TABLE movies (\n"
+          "    id              INTEGER PRIMARY KEY AUTOINCREMENT,\n"
+          "    title           VARCHAR(60) NOT NULL,\n"
+          "    premiere        DATE NOT NULL,\n"
+          "    director        VARCHAR(60) NOT NULL,\n"
+          "    genre           VARCHAR(60) NOT NULL\n"
+          ");\n"
+          "CREATE TABLE rooms (\n"
+          "    id              INTEGER PRIMARY KEY AUTOINCREMENT,\n"
+          "    name            VARCHAR(10) NOT NULL UNIQUE,\n"
+          "    seats           INTEGER NOT NULL,\n"
+          "    room_plan       INTEGER NOT NULL\n"
+          ");\n"
+          "CREATE TABLE showing (\n"
+          "    id              INTEGER PRIMARY KEY AUTOINCREMENT,\n"
+          "    movie_id        INTEGER NOT NULL,\n"
+          "    room_id         INTEGER NOT NULL,\n"
+          "    date_showing    DATE NOT NULL,\n"
+          "    price           DOUBLE(2),\n"
+          "    FOREIGN KEY (room_id) REFERENCES rooms(id) ON DELETE CASCADE,\n"
+          "    FOREIGN KEY (movie_id) REFERENCES movies(id) ON DELETE CASCADE\n"
+          ");\n"
+          "CREATE TABLE tickets (\n"
+          "    id              INTEGER PRIMARY KEY AUTOINCREMENT,\n"
+          "    showing_id      INTEGER NOT NULL,\n"
+          "    user_id         INTEGER NOT NULL,\n"
+          "    FOREIGN KEY (showing_id) REFERENCES showing(id) ON DELETE CASCADE,\n"
+          "    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE\n"
+          ");";
+    database_action(sql, db, zErrmsg, (void*)data, 0);
     */
+    /*
     bool running_app = true;
     char ch;
     int number = 0;
@@ -67,12 +93,16 @@ int main() {
                 }
                 break;
             case 2:
-                login_panel(db, data);
+                login_panel(db);
                 break;
             case 3:
                 running_app = 0;
         }
         system("cls");
     } while (running_app == true);
+    */
+    show_movies(db);
+    delete_movie(db);
+    getchar();
     return 0;
 }

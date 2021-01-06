@@ -5,8 +5,6 @@
 #include <stdio.h>
 #include <string.h>
 #include "datatypes.h"
-#include "../menu/user_panel.h"
-#include "../menu/admin_panel.h"
 
 #ifndef MOVIETHEATER_CALLBACK_H
 #define MOVIETHEATER_CALLBACK_H
