@@ -2,7 +2,6 @@
 #include "sqlite3/sqlite3.h"
 #include "database_actions/database.h"
 #include "menu/register_panel.h"
-#include "movies_db/movies.h"
 #include "menu/login_panel.h"
 //#include "menu/logo.h"
 #include "database_actions/datatypes.h"
@@ -69,7 +68,7 @@ int main() {
           ");";
     database_action(sql, db, zErrmsg, (void*)data, 0);
     */
-    /*
+
     bool running_app = true;
     char ch;
     int number = 0;
@@ -100,9 +99,7 @@ int main() {
         }
         system("cls");
     } while (running_app == true);
-    */
-    show_movies(db);
-    delete_movie(db);
+
     getchar();
     return 0;
 }

@@ -397,6 +397,60 @@ movies_db\movies.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\movies_db\movies.c.s
 .PHONY : movies_db\movies.c.s
 
+rooms\plan.obj: rooms\plan.c.obj
+
+.PHONY : rooms\plan.obj
+
+# target to build an object file
+rooms\plan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\rooms\plan.c.obj
+.PHONY : rooms\plan.c.obj
+
+rooms\plan.i: rooms\plan.c.i
+
+.PHONY : rooms\plan.i
+
+# target to preprocess a source file
+rooms\plan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\rooms\plan.c.i
+.PHONY : rooms\plan.c.i
+
+rooms\plan.s: rooms\plan.c.s
+
+.PHONY : rooms\plan.s
+
+# target to generate assembly for a file
+rooms\plan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\rooms\plan.c.s
+.PHONY : rooms\plan.c.s
+
+rooms\rooms.obj: rooms\rooms.c.obj
+
+.PHONY : rooms\rooms.obj
+
+# target to build an object file
+rooms\rooms.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\rooms\rooms.c.obj
+.PHONY : rooms\rooms.c.obj
+
+rooms\rooms.i: rooms\rooms.c.i
+
+.PHONY : rooms\rooms.i
+
+# target to preprocess a source file
+rooms\rooms.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\rooms\rooms.c.i
+.PHONY : rooms\rooms.c.i
+
+rooms\rooms.s: rooms\rooms.c.s
+
+.PHONY : rooms\rooms.s
+
+# target to generate assembly for a file
+rooms\rooms.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MovieTheater.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\MovieTheater.dir\rooms\rooms.c.s
+.PHONY : rooms\rooms.c.s
+
 sqlite3\sqlite3.obj: sqlite3\sqlite3.c.obj
 
 .PHONY : sqlite3\sqlite3.obj
@@ -463,6 +517,12 @@ help:
 	@echo ... movies_db/movies.obj
 	@echo ... movies_db/movies.i
 	@echo ... movies_db/movies.s
+	@echo ... rooms/plan.obj
+	@echo ... rooms/plan.i
+	@echo ... rooms/plan.s
+	@echo ... rooms/rooms.obj
+	@echo ... rooms/rooms.i
+	@echo ... rooms/rooms.s
 	@echo ... sqlite3/sqlite3.obj
 	@echo ... sqlite3/sqlite3.i
 	@echo ... sqlite3/sqlite3.s

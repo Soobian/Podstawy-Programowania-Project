@@ -139,6 +139,18 @@
 		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/movies_db/movies.h">
 			<Option target="MovieTheater"/>
 		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/rooms/plan.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/rooms/plan.h">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/rooms/rooms.c">
+			<Option target="MovieTheater"/>
+		</Unit>
+		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/rooms/rooms.h">
+			<Option target="MovieTheater"/>
+		</Unit>
 		<Unit filename="C:/Users/macci/Desktop/Podstawy-Programowania-Project/sqlite3/sqlite3.c">
 			<Option target="MovieTheater"/>
 		</Unit>

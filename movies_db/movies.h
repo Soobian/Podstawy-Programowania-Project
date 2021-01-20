@@ -14,4 +14,5 @@
 void show_movies(sqlite3*);
 void add_movie(sqlite3*);
 void delete_movie(sqlite3*);
+char* string_to_lower(char* );
 #endif //MOVIETHEATER_MOVIES_H
